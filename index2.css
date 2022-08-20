@@ -1,0 +1,36 @@
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+  }
+
+  h1{
+    text-align: left;
+    color:black;
+    border-radius: 9px;
+  }
+  ul{
+    list-style-type: none;
+    margin: 1px;
+    padding:1px;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+li{
+    float: left;
+}
+li a{
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 16px;
+    text-decoration:none;
+
+}
+li a:hover{
+    background-color: violet;
+  
+
+}
+tr:hover {background-color:violet;}

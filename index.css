@@ -1,0 +1,44 @@
+head{
+    background-color:#bebebe;
+}
+body {
+  background-image: url('C:\Users\marko\Downloads\jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+  }
+h1{
+    color:rgb(111, 0, 128);
+}
+address{
+    font-family:calibre;
+}
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  text-decoration: underline;
+}
+button {
+  color: green;
+  background-color:transparent;
+  text-decoration: none;
+}  
+button:hover{
+  color:blue;
+  text-decoration:none;
+
+}
+img{
+   border:1px solid green;
+}
