@@ -1,1 +1,1 @@
-# pages.hithub.io
+# pages
