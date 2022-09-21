@@ -23,3 +23,6 @@ li a:hover{
 
 }
 tr:hover {background-color:violet;}
+div.intro{
+    text-align:center;
+}
