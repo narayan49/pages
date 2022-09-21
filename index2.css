@@ -1,21 +1,10 @@
+body{
+  font-family: OCR A Std, monospace ;
+  text-align: center;
+}
+div connection.a{
+  float:left;
 
-  th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #DDD;
-  }
-
-  h1{
-    text-align: left;
-    color:black;
-    border-radius: 9px;
-  }
-  ul{
-    list-style-type: none;
-    margin: 1px;
-    padding:1px;
-    overflow: hidden;
-    background-color: aquamarine;
 }
 li{
     float: left;
