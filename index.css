@@ -42,6 +42,9 @@ button:hover{
 pre{
     text-align:center;
 }
-div.project{
+.project{
    text-align:center;
+}
+.footer{
+    text-align:end;
 }
