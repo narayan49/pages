@@ -9,9 +9,7 @@ h1{
     color:rgb(111, 0, 128);
     text-shadow: 2px 2px 5px #c57199;
 }
-address{
-    font-family:calibre;
-}
+
 a:link {
   color: green;
   text-decoration: none;
@@ -31,11 +29,6 @@ a:active {
   color: yellow;
   text-decoration: underline;
 }
-button {
-  color: green;
-  background-color:transparent;
-  text-decoration: none;
-}  
 
 pre{
     text-align:center;
