@@ -1,6 +1,7 @@
 body {
   font-family:OCR A Std, monospace;
   background-image:url('https://wallpapercave.com/wp/wp7453603.jpg');
+  text-align:center;
   
   }
 h1{
@@ -52,7 +53,4 @@ h2{
 }
 .intro{
   font-size:30px;
-}
-div{
-text-align:center;
 }
