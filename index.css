@@ -1,0 +1,61 @@
+      .header{
+            background-color: black;
+            color:white;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items:stretch;
+            padding: 15px 20px;
+            font-size: 20px;
+            width: auto;
+        }
+      a:link {
+        color: white;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: white;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #52ba1deb;
+        text-decoration: none;
+      }
+
+      a:active {
+        color: yellow;
+        text-decoration: underline;
+      }
+
+      body {
+        font-family: sans-serif, monospace;
+        background-image: url("https://wallpaperaccess.com/full/5651990.jpg");
+        color: white
+      }
+
+      .intro {
+        text-align: center;
+      }
+
+      div {
+        text-align: center;
+      }
+      .footer{
+            background-color: black;
+            color:white;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items:stretch;
+            padding: 15px 20px;
+            font-size: 20px;
+        }
+        @media(max-width:800px){
+            .header{
+                flex-direction: column;
+
+            }
+        }
+       
