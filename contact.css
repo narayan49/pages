@@ -42,10 +42,6 @@ a:active{
     .header{
         flex-flow: column wrap;
     }
-    .card{
-        width: 300px;
-        height:500px;
-        }
     
 }
 .card{
@@ -53,8 +49,8 @@ a:active{
    
     border-bottom-right-radius: 2px solid black;
     border: 1px solid black;
-    width: 400px;
-    height:600px;
+    width: 350px;
+    height:500px;
     border-radius: 2rem 2rem 2rem 2rem;
     background-color:transparent;
     text-align: center;
