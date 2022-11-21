@@ -31,7 +31,7 @@
 
       body {
         font-family: sans-serif, monospace;
-        background-image: url("https://wallpaperaccess.com/full/5651990.jpg");
+        background-image:linear-gradient( to right,dodgerblue,pink);
         color: white
       }
 
