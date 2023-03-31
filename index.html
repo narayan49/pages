@@ -12,23 +12,81 @@
 </head>
 
 <body>
-  <p>Welcome to my Portfolio!</p>
-  <div class="border">
-    <div class="header">
-      <a href="index.html" style="color:aqua ;">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    <div class="card">
-      <h1>Resume</h1>
-      <a href="https://drive.google.com/file/d/1iXsX6v5PJ6tV8hei3AFfT8A_KuUq0wme/view" target="_blank"
-        style="font-size:17px;color:black,">view</a>
-    </div>
-    <br>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="footer">
-      <h4>&#169 Copyright Narayan Singh</h4>
-    </div>
-  </div>
+    <section id="home">
+        <h1>Welcome to my portfolio</h1>
+        <p>My name is Narayan Singh and I'm a web developer. Take a look at my work and skills to learn more about what I do.</p>
+    </section>
+
+    <section id="about">
+        <h2>About me</h2>
+        <p>I have been working in the web development field, and I specialize in creating responsive and user-friendly websites.</p>
+        <p>In my free time,I watch movies and play games</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS(Bootstrap)</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>React(Beginner)</li>
+        </ul>
+    </section>
+
+    <section id="work">
+        <h2>Work</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>SRAM: Performance evaluation of 6T,7T,8T SRAM with taking care of area, power consumption and delay using
+                CADENCE software.</p>
+            <a href="https://docs.google.com/presentation/d/1b-UcK85w-FR-5i7uT_gbMJ7m7oRXWCTG/edit#slide=id.p1" target="_blank">View project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Full ADDER: Design of low power full adder circuit using CMOS Technology taking care of area and delay.</p>
+            <a href="https://docs.google.com/presentation/d/1C7G_OeLwx23n3P9Z5wL6L1L1_dUPs0ok/edit" target="_blank">View project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+       
+       <a class="github" href="https://github.com/narayan49" target="_blank">Github</a>
+       <a class="linkedln" href="https://www.linkedin.com/in/narayan-singh49/" target="_blank">Linkedln</a>
+       <a class="instagram" href="https://www.instagram.com/marko_nsingh" target="_blank">Instagram</a>
+       <a class="mail" href="mailto:ns1673831@gmail.com" target="_blank">Mail</a>
+       <div> <p>&copy; 2023 Narayan Singh</p></div>
+       
+    </footer>
+</body>
 
 </html>
