@@ -1,4 +1,4 @@
-           /* Global styles */
+      /* Global styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -167,16 +167,6 @@ footer {
 }
 footer>a{
     padding: 1rem;
-}
-    
-}
-.border{
-    border: 8px solid rgb(12, 12, 12);
-    border-top-left-radius: 18px ;
-    border-top-right-radius: 18px ;
-    border-bottom-left-radius: 18px ;
-    border-bottom-right-radius: 18px ;
-    background-image:linear-gradient(to right,violet,orange);
 }
 
 
